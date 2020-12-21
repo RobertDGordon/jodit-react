@@ -44,7 +44,10 @@ const JoditEditor = forwardRef((props, ref) => {
 		}
 
 		return () => {
-			textArea.current.destruct()
+			console.log("This is working")
+			if(textArea?.current){
+				textArea.current.destruct()
+			}
 			textArea.current = element
 		}
 	}, [config])
