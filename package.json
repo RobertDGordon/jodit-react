@@ -2,7 +2,7 @@
 	"name": "jodit-react",
 	"version": "1.0.66",
 	"description": "Jodit is awesome and usefully wysiwyg editor with filebrowser",
-	"main": "src/index.js",
+	"main": "build/jodit-react.js",
 	"author": "Chupurnov <chupurnov@gmail.com> (https://xdsoft.net/)s",
 	"keywords": [
 		"react",
